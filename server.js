@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 //........................MongoDb Connect...............................//
 
-mongoose.connect('mongodb+srv://supratim:brainium123@cluster0-vzcsk.mongodb.net/User',
+mongoose.connect('mongodb+srv://supratim:supi1234@cluster0.cu67u.mongodb.net/User',
     { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
 ).then(() => {
     console.log("connection to database established")
